@@ -15,7 +15,11 @@ include __DIR__ . "/data.php";
 </head>
 
 <body>
-
+    <pre>
+        <?php foreach ($prodotti as $prodotto) {
+            var_dump($prodotto);
+        } ?>
+    </pre>
 </body>
 
 </html>
