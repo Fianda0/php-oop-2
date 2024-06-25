@@ -2,10 +2,11 @@
 
 class Categoria
 {
-    public $category;
+    public $name;
+    public $description;
 
-    public function __construct($category)
+    public function __construct($name)
     {
-        $this->category = $category;
+        $this->name = $name;
     }
 }
