@@ -19,7 +19,7 @@ include __DIR__ . "/data.php";
 
         <?php
         foreach ($prodotti as $prodotto) {
-            echo "<li>" . $prodotto->nome . " è per animali di tipo " . $prodotto->categoria->name . " ha un prezzo di " . $prodotto->prezzo . "</li>";
+            echo $prodotto->descrizione();
         }
         ?>
     </ul>
