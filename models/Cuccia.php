@@ -2,7 +2,7 @@
 
 class Cuccia extends Prodotto
 {
-    public function __construct(public $nome, public $prezzo, public $dimensioni)
+    public function __construct(public $nome, public $prezzo, public Categoria $categoria, public $dimensioni)
     {
     }
 }
